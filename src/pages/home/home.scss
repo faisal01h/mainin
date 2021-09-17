@@ -1,0 +1,27 @@
+.home-container {
+  .btn {
+    width: 120pt;
+    height: 40pt;
+    line-height: 40pt;
+    margin: 2pt 0;
+    background-color: salmon;
+  }
+
+  .menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .join-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .joinRoomById {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

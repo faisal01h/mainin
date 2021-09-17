@@ -1,0 +1,51 @@
+.board-container {
+  .map {
+    p {
+      width: 50pt;
+      height: 50pt;
+
+      font-size: 9pt;
+      background-color: lightgray;
+    }
+
+    .map-top,
+    .map-bottom {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      height: 50pt;
+    }
+
+    .map-mid {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      height: 166pt;
+      padding: 0 3pt;
+      margin: 3pt 0;
+
+      .mid-l,
+      .mid-r {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        height: 166pt;
+
+        p {
+          margin: 0;
+          height: 50pt;
+        }
+      }
+
+      .mid-c {
+        width: 162pt;
+        height: 160pt;
+
+        background-color: lightgray;
+      }
+    }
+  }
+}

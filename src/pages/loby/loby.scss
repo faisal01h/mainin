@@ -1,0 +1,14 @@
+.loby-container {
+  .invite-link {
+    display: flex;
+    justify-content: center;
+
+    .link {
+      margin: auto 5pt;
+    }
+
+    .btn {
+      background-color: lightgray;
+    }
+  }
+}
